@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+    padding: 5px;
+}
+.custom-shadow {
+    @apply shadow-inner;
+    box-shadow: inset 0px -14px 24px 1px  rgb(0, 0, 0); /* Customize here */
+  }
+ h1{
+    font-size: 3vh;
+ }
